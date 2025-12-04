@@ -1,6 +1,6 @@
 // ./settings/index.js
 const path = require('path');
-const defaultConfig = require('../settings.js'); // your original config.js (defaults)
+const defaultConfig = require('../settings/settings.json'); // your original config.js (defaults)
 const db = require('./settings-db');
 
 let current = { ...defaultConfig };
